@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+select {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100;
+}
+
+.playBtn{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100;
+}
+
+.movie-poster {
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+  
+}
+
+.description {
+  margin: 0 auto;
+  width: 30%;
+  text-align: left;
+}
+
+img{
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
+}
